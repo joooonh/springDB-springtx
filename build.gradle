@@ -11,8 +11,6 @@ java {
 	sourceCompatibility = '17'
 }
 
-//ext["hibernate.version"] = "5.6.5.Final"
-
 configurations {
 	compileOnly {
 		extendsFrom annotationProcessor
